@@ -1,0 +1,14 @@
+
+-- open soruce bc you can use rspy to get this
+
+
+
+
+while true do
+local args = {
+    [1] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Spin"):InvokeServer(unpack(args))
+Wait(0.1)
+end
